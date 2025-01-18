@@ -55,15 +55,15 @@ IPv6 is designed to address IPv4 limitations, such as address exhaustion and per
 ## What is CIDR, and why important
 CIDR (Classless Inter-Domain Routing) is a method for IP address allocation and routing that replaces the traditional class-based system. It represents IP addresses with a prefix and a suffix (e.g., 192.168.1.0/24), where the suffix defines the subnet mask.
 
-Why CIDR is Important:
-1. Efficient Address Allocation:
-    1. Allows subnet sizes to be tailored to actual needs, reducing IP address wastage.
-1. Improved Routing:
-    1. Enables route aggregation, reducing the size of routing tables and improving efficiency.
-1. Scalability:
-    1. Supports the growing number of devices on the internet by optimizing address utilization.
-1. Flexibility:
-    1. Provides more granularity in subnetting compared to fixed class-based ranges.
+Why CIDR is Important:  
+1. Efficient Address Allocation:  
+    1. Allows subnet sizes to be tailored to actual needs, reducing IP address wastage.  
+1. Improved Routing:  
+    1. Enables route aggregation, reducing the size of routing tables and improving efficiency.  
+1. Scalability:  
+    1. Supports the growing number of devices on the internet by optimizing address utilization.  
+1. Flexibility:  
+    1. Provides more granularity in subnetting compared to fixed class-based ranges.  
 
 ## Difference between static and dynamic routing
 1. Static Routing:
